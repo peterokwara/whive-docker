@@ -1,0 +1,7 @@
+version: "3.4"
+services:
+  whived:
+    hostname: whive
+    image: whive:latest
+    network_mode: host
+    command: "./whive/src/whived"
