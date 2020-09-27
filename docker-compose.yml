@@ -1,7 +1,10 @@
 version: "3.4"
+
 services:
   whived:
-    hostname: whive
+    hostname: whived
     image: whive:latest
     network_mode: host
-    command: "./whive/src/whived"
+
+  cpuminer:
+    hostname: cpuminer
